@@ -6,7 +6,7 @@ replicaCount: 1
 
 image:
   pullPolicy: IfNotPresent
-  repository: 098478614821.dkr.ecr.me-central-1.amazonaws.com/winggo/demo
+  repository: 098478614821.dkr.ecr.me-central-1.amazonaws.com
   version: main-8471792
 
 imagePullSecrets: []
