@@ -3,11 +3,12 @@
 # Declare variables to be passed into your templates.
 
 replicaCount: 1
+namespace: demo
 
 image:
   pullPolicy: IfNotPresent
-  repository: 098478614821.dkr.ecr.me-central-1.amazonaws.com
-  version: main-8471792
+  repository: 098478614821.dkr.ecr.me-central-1.amazonaws.com/helm-test-chart
+  version: main-fdc0169
 
 imagePullSecrets: []
 nameOverride: ""
