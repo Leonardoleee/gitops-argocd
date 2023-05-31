@@ -8,7 +8,7 @@ namespace: demo
 image:
   pullPolicy: IfNotPresent
   repository: 098478614821.dkr.ecr.me-central-1.amazonaws.com/helm-test-chart
-  version: main-e641290
+  version: main-aae0bf7
 
 imagePullSecrets: []
 nameOverride: ""
