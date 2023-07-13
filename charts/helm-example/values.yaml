@@ -7,7 +7,7 @@ namespace: demo
 
 image:
   pullPolicy: IfNotPresent
-  repository: xxx.amazonaws.com/helm-test-chart
+  repository: 098478614821.dkr.ecr.me-central-1.amazonaws.com/helm-test-chart
   version: main-0ef68c6
 
 imagePullSecrets: []
